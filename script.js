@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const compactBufferInput = document.getElementById("compact-buffer").value;
 
         // Perform AJAX request to backend
-        const response = await fetch("http://127.0.0.1:5000/parse", {
+        const response = await fetch(""https://cfparser.pythonanywhere.com.pythonanywhere.com/cors-proxy/http://localhost:56421/parse", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
