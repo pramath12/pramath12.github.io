@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digit Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Type Information</h1>
+
+    <!-- Create the table with headings -->
+    <table>
+        <thead>
+            <tr>
+                <th>Data Type</th>
+                <th>Tag</th>
+                <th>Length Details (in Bytes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DT_ARRAY</td>
+                <td>1</td>
+                <td>Length will be in buffer</td>
+            </tr>
+            <tr>
+                <td>DT_STRUCTURE</td>
+                <td>2</td>
+                <td>Length will be in buffer</td>
+            </tr>
+            <tr>
+                <td>DT_BOOLEAN</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>DT_BIT_STRING</td>
+                <td>4</td>
+                <td>Length will be in buffer</td>
+            </tr>
+            <tr>
+                <td>DT_DOUBLE_LONG</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>DT_DOUBLE_LONG_UNSIGNED</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>DT_FLOATING_POINT</td>
+                <td>7</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>DT_OCTET_STRING</td>
+                <td>9</td>
+                <td>Length will be in buffer</td>
+            </tr>
+            <tr>
+                <td>DT_VISIBLE_STRING</td>
+                <td>10</td>
+                <td>Length will be in buffer</td>
+            </tr>
+            <tr>
+                <td>DT_UTF8_STRING</td>
+                <td>12</td>
+                <td>Length will be in buffer</td>
+            </tr>
+            <tr>
+                <td>DT_BCD</td>
+                <td>13</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>DT_INTEGER</td>
+                <td>15</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>DT_LONG</td>
+                <td>16</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>DT_UNSIGNED</td>
+                <td>17</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>DT_LONG_UNSIGNED</td>
+                <td>18</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>DT_COMPACT_ARRAY</td>
+                <td>19</td>
+                <td>Length will be in buffer</td>
+            </tr>
+            <tr>
+                <td>DT_LONG64</td>
+                <td>20</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>DT_UNSIGNED_LONG64</td>
+                <td>21</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>DT_ENUM</td>
+                <td>22</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>DT_REAL32</td>
+                <td>23</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>DT_REAL64</td>
+                <td>24</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>DT_DATETIME</td>
+                <td>25</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>DT_DATE</td>
+                <td>26</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>DT_TIME</td>
+                <td>27</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>DT_COMPACT_DATETIME</td>
+                <td>28</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="index.html">Back to Main Page</a>
+</body>
+</html>

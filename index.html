@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Template Parser</title>
+</head>
+<body>
+    <h1>Compact Frame Template Parser</h1>
+    <form id="input-form">
+        <label for="template-desc">Enter Template Descriptors:</label>
+        <input type="text" id="template-desc" placeholder="Enter descriptors..." required>
+        <br>
+        <label for="compact-buffer">Enter Compact Buffer:</label>
+        <input type="text" id="compact-buffer" placeholder="Enter buffer..." required>
+        <br>
+        <button type="submit">Parse</button>
+    </form>
+
+    <h2>Results</h2>
+    <div id="results"></div>
+
+    <!-- Add the "Info" button -->
+    <button id="info-button">Data Type Info</button>
+
+    <script src="script.js"></script>
+
+    <!-- Add the JavaScript code for the "Info" button -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const infoButton = document.getElementById("info-button");
+
+            infoButton.addEventListener("click", function () {
+                // Open the info.html page in a new tab
+                window.open("info.html", "_blank");
+            });
+        });
+    </script>
+
+    <footer>
+        &copy; Pramath Bhat 2023
+    </footer>
+</body>
+</html>
